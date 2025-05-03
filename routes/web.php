@@ -19,7 +19,7 @@ use App\Http\Controllers\ExerciseController;
 
 // Route halaman utama
 Route::get('/', function () {
-    return view('welcome');
+    return redirect()->route('login');
 });
 
 // Route Autentikasi Manual
